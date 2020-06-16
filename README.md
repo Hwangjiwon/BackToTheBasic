@@ -1,14 +1,14 @@
 # BackToTheBasic
 
-[1. Java](# Java)
-[2. Docker](# Docker)
-[3. Kuvernates](# Kuvernates)
-
-
+[1. Java](#java)
+[2. Docker](#docker)
+[3. Kuvernates](#kuvernates)
 
 
 ## Docker
-
+**컨테이너** 기반의 오픈소스 **가상화** 플랫폼
+> **컨테이너:** 격리된 공간에서 프로세스가 동작하는 기술. 컨테이너는 이미지를 실행한 상태, 추가되거나 변하는 값은 컨테이너에 저장. 
+> **이미지:** 컨테이너 실행에 필요한 파일과 설정값등을 포함하고 있는 것, 상태값을 가지지 않고 변하지 않는다. 
 
 
 
