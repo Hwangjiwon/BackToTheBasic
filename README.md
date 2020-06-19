@@ -2,7 +2,8 @@
 [1. Java](#java) <br>
 [2. Docker](#docker) <br>
 [3. Kuvernates](#kuvernates) <br>
-[4. Etc](#etc) <br>
+[4. Concept](#concept)<br>
+[5. Etc](#etc) <br>
 
 
 ## Java
@@ -60,6 +61,19 @@ exit : 쉘 종료하면 컨테이너도 종료
  > **고급 컨트롤러**
  > 
 
+## Concept
+
+1. 인공지능 > 머신러닝 > 인공신경망 > 딥러닝
+
+2. GAN
+GAN에는 최대한 진짜 같은 데이터를 생성하려는 생성 모델과 진짜와 가짜를 판별하려는 분류 모델이 각각 존재하여 서로 적대적으로 학습 <br>
+> **머신러닝(Machine learning)** 은 컴퓨터가 데이터를 학습하고 스스로 패턴을 찾아내 적절한 작업을 수행하도록 학습하는 알고리즘. 머신러닝은 크게 지도학습 (Supervised learning), 비지도학습 (Unsupervised learning), 강화학습 (Reinforcement learning)등으로 분류
+>> **지도학습**은 정답이 주어진 상태에서 학습하는 알고리즘 -->  분류(classification)와 회귀생성(regression)
+>> **비지도학습**은 정답이 주어지지 않은 상태에서 학습하는 알고리즘 -->  군집화(clustering)
+>> **강화학습**은 현재의 상태(State)에서 어떤 행동(Action)을 취하는 것이 최적인지를 학습하는 것. 행동을 취할 때마다 외부 환경에서 보상(Reward)이 주어지는데, 이러한 보상을 최대화 하는 방향으로 학습이 진행
+
+
 ##  Etc
 > **yaml포맷:** Ain't Markup Language. 사람이 읽기 쉽게 되어 있는 형태로 표현하는 데이터 포맷. 데이터 직렬화 양식. 가독성에 포커싱 되어있음 
 > 
+
