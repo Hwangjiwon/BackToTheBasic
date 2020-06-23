@@ -151,7 +151,7 @@ GAN에는 최대한 진짜 같은 데이터를 생성하려는 생성 모델과 
 : 일자, 시가, 고가, 저가, 거래량을 토대로 미래의 주가인 “종가”를 예측
 : **LSTM 모델 생성 및 학습** : Keras로 LSTM 모델 생성 (32 -> 64 -> 1) -> 생성한 모델 학습
 : **학습결과 출력** : Test_set에 대한 출력값을 그래프로 그리기, Denormalization을 통해 원래 주식 값으로 변환하여 출력 
-:`window_size`는 내가 얼마동안(기간)의 주가 데이터에 기반하여 다음날 종가를 예측할 것인가를 정하는 parameter. 즉 내가 과거 20일을 기반으로 내일 데이터를 예측한다라고 가정했을 때는 `window_size=20`.
+: `window_size`는 내가 얼마동안(기간)의 주가 데이터에 기반하여 다음날 종가를 예측할 것인가를 정하는 parameter. 즉 내가 과거 20일을 기반으로 내일 데이터를 예측한다라고 가정했을 때는 `window_size=20`.
 : `TEST_SIZE = 200`은 학습은 과거부터 200일 이전의 데이터를 학습
 
 <br>
@@ -180,7 +180,16 @@ GAN에는 최대한 진짜 같은 데이터를 생성하려는 생성 모델과 
 ### Matelease 
 
 ### 사이트 보안취약점 해결
-
+1) 기반 환경
+: Spring Framework
+ > **동작순서** : Request -> DispatcherServlet -> HandlerMapping -> Controller -> Service -> DAO -> DB -> DAO -> Service -> Controller -> DispatcherServlet -> ViewResolver -> View -> Response
+>  **특징** : 
+>  -   **POJO(Plain Old Java Object)**  기반의 구성 : 객체 간의 관계를 구성할 때 별도의 API 등을 사용하지 않음 
+>  -   **DI(Dependency Injection, 의존성 주입)** 을 통한 객체 간의 관계 구성 :  특정 객체에 필요한 객체를 외부에서 결정하여 연결시키는 것
+>  -   **AOP(Aspect Oriented Programming)**  지원 : OOP에서 각 객체별로 처리했던 공통적인 관심을 분리하여 별도의 모듈로 만든 뒤 필요한 시점에 자동으로 소스코드가 삽입되도록 함
+>  -   편리한  **MVC**  구조
+>  -   WAS에 독립적인 개발환경
+  
 ### 웹 개발 동아리
 
 ### 앱 개발 동아리
