@@ -5,7 +5,7 @@
 [4. Concept](#concept)<br>
 [5. Project](#project)<br>
 [6. Security](#security)<br>
-[6. Etc](#etc) <br>
+[7. Etc](#etc) <br>
 
 
 ## **Java**
