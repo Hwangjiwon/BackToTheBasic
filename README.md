@@ -232,7 +232,13 @@ GAN에는 최대한 진짜 같은 데이터를 생성하려는 생성 모델과 
 ## **Security**
 - 사용했던 명령어 확인하기
 > /home/사용자/.bash_history
-> 
+
+- SSDP
+> 윈도우에서 쓰이는 SSDP 방식 약자를 번역하면 Simple Service Discovery Protocol 이다.
+SSDP 프로토콜은 UPnP 구성의 일부분이다. Universal Plug and Play 네트워킹 프로토콜이다.
+UDP 1900 포트로 이용하며 멀티캐스트로 하여 Flooding 한다.
+
+> 오늘날 IoT 사물기기들의 사용 범위가 늘어나면서 해커들은 IoT 기기에서 네트워크상의 서비스 및 정보검색의 기능을 하는 프로토콜인 SSDP의 취약점을 악용하여 SSDP DRDoS(분산 반사 서비스 거부) 공격이라는 새로운 형태의 공격을 만들어 공격을 시도하고 있다.
 
 
 ##  **Etc**
